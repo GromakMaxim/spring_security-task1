@@ -17,6 +17,7 @@ public class PersonController {
     @Autowired
     PersonRepository personRepository;
 
+    //example: http://localhost:8080/hello
     @GetMapping("/hello")
     public String showHelloPage(){
         return "Hello from spring security application! (this page is available for everybody)";
